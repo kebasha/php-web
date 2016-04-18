@@ -1,0 +1,13 @@
+[ 2016-04-14T11:09:14+08:00 ] 127.0.0.1 /kbky/index.php/Home/User/User/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.031250s ]
+INFO: [ app_init ] --END-- [ RunTime:0.281250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.046875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046875s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.6250s ]
+SQL: DELETE FROM `user` WHERE ( id=5 ) [ RunTime:0.1875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
